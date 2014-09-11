@@ -2,6 +2,8 @@
 
 if (jQuery) {
     $("#lesson-header").show();
-}
 
-console.log("Hello World");
+    var paraString = $("#lesson-header p").text();
+
+    console.debug(paraString);
+}
